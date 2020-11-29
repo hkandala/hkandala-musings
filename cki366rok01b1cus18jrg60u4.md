@@ -2,7 +2,7 @@
 
 This is going to be my long rant on the problems I faced when I wanted to transfer a large number of files between two devices and how I ended up exploring WebRTC.
 
-So, recently I bought a new phone and I wanted to transfer all the files and folders (around 40GB) from my old phone to my windows laptop. Anyone would immediately think of connecting a USB cable and copying files. But my old phone has USB port issues, leaving me with the only wireless transfer. Well, with all the advancements in wireless technology it should be straightforward right? I am not sure if I did it right, at least my experience was horrible.
+So, recently I bought a new phone and I wanted to transfer all the files and folders (around 40GB) from my old phone to my windows laptop. Anyone would immediately think of connecting a USB cable and copying files. But my old phone has USB port issues, leaving me with the only wireless transfer. Well, with all the advancements in wireless technology it should be straightforward, right? I am not sure if I did it correct, at least my experience was horrible.
 
 I started searching for different options I have available to transfer wirelessly. These are what I came up with:
 
@@ -27,7 +27,7 @@ Disappointed me started listing down the requirements of an ideal file/data tran
 9. And last but not the least, it should be free and open-source, which means no intermediate servers, preferably peer to peer.
 10. Bonus: Transfer to multiple devices at once. An option to broadcast to all devices in the network.
 
-After noting down the requirements, especially the first two points, I quickly realized, this is possible if it is a web app right? Browsers are available on every device, and web apps do not require any setup. And I am not the only one who realized this, many developers have already tried to solve this through a web app ([Snapdrop](https://snapdrop.net/),  [ShareDrop](https://www.sharedrop.io/)), but they don't meet other requirements quite well, specifically directory sharing and pause/resume option which are deal-breakers when transferring large files.
+After noting down the requirements, especially the first two points, I quickly realized, this is possible if it is a web app, right? Browsers are available on every device, and web apps do not require any setup. And I am not the only one who realized this, many developers have already tried to solve this through a web app ([Snapdrop](https://snapdrop.net/),  [ShareDrop](https://www.sharedrop.io/)), but they don't meet other requirements quite well, specifically directory sharing and pause/resume option which are deal-breakers when transferring large files.
 
 I started exploring how these existing apps work in the hope to extend them. The underlying technology that makes it possible to transfer files via browsers is  [WebRTC](https://webrtc.org/). It is a p2p protocol and an API that is available in all modern browsers. With my current understanding and research, I believe one can build a web app that satisfies the above-mentioned requirements using WebRTC. Transfer rates might not be super fast but we can achieve decent rates. I began to learn how WebRTC works and working on how feasible it is to build this app. Will keep posting my updates and progress in this blog.
 
