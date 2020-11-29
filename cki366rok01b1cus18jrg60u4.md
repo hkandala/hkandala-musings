@@ -2,7 +2,7 @@
 
 This is going to be my long rant on the problems I faced when I wanted to transfer a large number of files between two devices and how I ended up exploring WebRTC.
 
-So, recently I bought a new phone and I wanted to transfer all the files and folders (around 40GB) from my old phone to my windows laptop. Anyone would immediately think of connecting a USB cable and copying files. But my old phone has USB port issues, leaving me with the only wireless transfer. Well, with all the advancements in wireless technology it should be straightforward, right? I am not sure if I did it correct, at least my experience was horrible.
+So, recently I bought a new phone and I wanted to transfer all the files and folders (around 40GB) from my old phone to my windows laptop. Anyone would immediately think of connecting a USB cable and copying files. But my old phone has USB port issues, leaving me with the only wireless transfer. Well, with all the advancements in wireless technology it should be straightforward, right? I am not sure if I did it correctly, at least my experience was horrible.
 
 I started searching for different options I have available to transfer wirelessly. These are what I came up with:
 
