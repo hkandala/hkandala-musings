@@ -1,6 +1,6 @@
 ## 100 Things You Should Know as a Software Engineer
 
-<br/>
+
 ### Building Software:
 
 - (1) Premature optimization is the root of all evil. Don't underestimate this statement.
