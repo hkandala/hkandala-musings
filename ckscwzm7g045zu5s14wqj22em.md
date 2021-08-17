@@ -17,7 +17,7 @@
 
 ### Designing Systems:
 
-- (13) Best system designs are usually the simplest ones. Keep it simple stupid! ([KISS](https://en.wikipedia.org/wiki/KISS_principle))
+- (13) Best system designs are usually the simplest ones. Keep it simple, stupid! ([KISS](https://en.wikipedia.org/wiki/KISS_principle))
 - (14) Design patterns and best practices are not some magic potion that applies everywhere. A good engineer knows best practices but a senior engineer knows when to break best practices.
 - (15) Understand Abstraction. Unnecessary complexity in the code is introduced usually because of poor abstraction.
 - (16) A system is only as strong as its weakest point. Focus on the bottleneck.
